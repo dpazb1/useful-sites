@@ -26,7 +26,6 @@ h1 {
 
 .list:hover {
     font-size: 35px;
-    color: rgb(21, 99, 255);
     cursor: pointer;
 }
 
@@ -42,5 +41,5 @@ h1 {
 .f:hover { color: indigo;}
 .g:hover { color: violet;}
 .h:hover { color: red;}
-.i:hover {color: orange}
+.i:hover { color: orange;}
 
