@@ -42,6 +42,7 @@ h1 {
 .g:hover { color: violet;}
 .h:hover { color: red;}
 .i:hover { color: orange;}
+.j:hover {color: yellow}
 
 .house {
     transition: 0.5s;
