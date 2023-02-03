@@ -24,11 +24,14 @@ h1 {
     transition: 0.5s;
 }
 
-.list:hover {
-    font-size: 35px;
-    cursor: pointer;
+.lil {
+    width: auto;
 }
 
+.lil:hover {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+}
 .buffer {
     height: 50px;
 }
@@ -40,9 +43,7 @@ h1 {
 .e:hover { color: blue;}
 .f:hover { color: indigo;}
 .g:hover { color: violet;}
-.h:hover { color: red;}
-.i:hover { color: orange;}
-.j:hover {color: yellow}
+
 
 .house {
     transition: 0.5s;
@@ -56,6 +57,11 @@ h1 {
   }
 
 .center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
 }
